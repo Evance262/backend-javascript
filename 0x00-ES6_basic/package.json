@@ -1,17 +1,24 @@
 {
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint",
-    "check-lint": "lint [0-9]*.js",
-    "dev": "npx babel-node",
-    "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
-  },
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "es6_basic",
+  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.4",
-    "babel-jest": "^27.1.1",
-    "eslint": "^7.32.0",
-    "husky": "^4.3.8",
-    "jest": "^27.1.1"
-  }
+    "@babel/preset-react": "^7.17.12",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Evance262/alx-backend-javascript"
+  },
+  "author": "EvanceChapuma",
+  "license": "ISC"
 }
