@@ -1,1 +1,3 @@
-# alx-backend-javascript
+# backend-javascript
+  
+  Backend development with JavaScripts
